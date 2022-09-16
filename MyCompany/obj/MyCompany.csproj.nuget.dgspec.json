@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\MyCompany\\MyCompany.csproj": {}
+    "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\ASP.NET-Core-Test\\MyCompany\\MyCompany.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\MyCompany\\MyCompany.csproj": {
+    "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\ASP.NET-Core-Test\\MyCompany\\MyCompany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\MyCompany\\MyCompany.csproj",
+        "projectUniqueName": "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\ASP.NET-Core-Test\\MyCompany\\MyCompany.csproj",
         "projectName": "MyCompany",
-        "projectPath": "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\MyCompany\\MyCompany.csproj",
+        "projectPath": "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\ASP.NET-Core-Test\\MyCompany\\MyCompany.csproj",
         "packagesPath": "C:\\Users\\Dog\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\MyCompany\\obj\\",
+        "outputPath": "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\ASP.NET-Core-Test\\MyCompany\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dog\\AppData\\Roaming\\NuGet\\NuGet.Config",

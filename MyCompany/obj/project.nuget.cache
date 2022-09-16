@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J1+HwG2mSqd/4okN083vaDhm2K1L+Tgd45SHPnQrwpY3YCtMzSs8MABRMQkUA6q54PhzJHc54Zo1omqmhvoOuw==",
+  "dgSpecHash": "WKBSh7NZZuZnl7krRn90w2zLb8pR8thkU3n7JkmOH/TK9lQOZ3e68tVK+3/DOinbc0K7pWoLcncbtLY+nr8Vnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\MyCompany\\MyCompany.csproj",
+  "projectFilePath": "C:\\Users\\Dog\\Desktop\\ASP.NET Core Test\\MyCompany\\ASP.NET-Core-Test\\MyCompany\\MyCompany.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dog\\.nuget\\packages\\devexpress.data\\22.1.4\\devexpress.data.22.1.4.nupkg.sha512",
     "C:\\Users\\Dog\\.nuget\\packages\\devexpress.xpo\\22.1.4\\devexpress.xpo.22.1.4.nupkg.sha512",
