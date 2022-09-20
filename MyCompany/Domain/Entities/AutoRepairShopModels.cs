@@ -1,35 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace MyCompany.Domain.Entities
 {
-    public class WorkShops
+    public class WorkShop
     {
+        [Required]
+        public Guid Id { get; set; }
     }
 
-    public class WorkNames
+    public class WorkName
     {
+        [Required]
+        public Guid Id { get; set; }
     }
 
-    public class OrderStructs
+    public class OrderStruct
     {
+        [Required]
+        public Guid Id { get; set; }
     }
 
-    public class Orders
+    public class Order
     {
+        [Required]
+        public Guid Id { get; set; }
     }
 
-    public class Costs
+    public class Cost
     {
+        [Required]
+        public Guid Id { get; set; }
     }
 
-    public class Brands
+    public class Brand
     {
+        [Required]
+        public Guid Id { get; set; }
     }
 
-    public class Cars
+    public class Car
     {
+        [Required]
+        public Guid Id { get; set; }
     }
 }
