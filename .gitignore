@@ -1,3 +1,7 @@
 
 *.cache
 .vs/MyCompany/v16/.suo
+*.v2
+*.dll
+*.pdb
+*.cache

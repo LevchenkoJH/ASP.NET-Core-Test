@@ -9,7 +9,7 @@ namespace MyCompany.Domain.Entities
     // Тебе это не нужно
     public abstract class EntityBase
     {
-        protected EntityBase() => DateAdded = DateTime.UtcNow;
+        protected EntityBase() => DateAdded = null;
 
         [Required]
         public Guid Id { get; set; }
@@ -36,6 +36,6 @@ namespace MyCompany.Domain.Entities
         public string MetaKeywords { get; set; }
 
         [DataType(DataType.Time)]
-        public DateTime DateAdded { get; set; }
+        public DateTime? DateAdded { get; set; }
     }
 }

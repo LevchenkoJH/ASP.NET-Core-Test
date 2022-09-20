@@ -15,6 +15,13 @@ namespace MyCompany.Domain
 
         public DbSet<TextField> TextFields { get; set; }
         public DbSet<ServiceItem> ServiceItems { get; set; }
+        public DbSet<WorkShop> WorkShops { get; set; }
+        public DbSet<WorkName> WorkNames { get; set; }
+        public DbSet<OrderStruct> OrderStructs { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Cost> Costs { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Car> Cars { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -47,21 +54,21 @@ namespace MyCompany.Domain
 
             modelBuilder.Entity<TextField>().HasData(new TextField
             {
-                Id = Guid.NewGuid(),
+                Id = Guid.Parse("42714e93-9357-42e4-a3ed-7a6582f57e92"),
                 CodeWord = "PageIndex",
                 Title = "Главная"
             });
 
             modelBuilder.Entity<TextField>().HasData(new TextField
             {
-                Id = Guid.NewGuid(),
+                Id = Guid.Parse("f5fe364d-e1cb-4bc0-a3d5-b6bb22ed1b07"),
                 CodeWord = "PageServices",
                 Title = "Наши услуги"
             });
 
             modelBuilder.Entity<TextField>().HasData(new TextField
             {
-                Id = Guid.NewGuid(),
+                Id = Guid.Parse("fefd5de5-e5ec-44c6-b7e4-9d72327c399e"),
                 CodeWord = "PageContacts",
                 Title = "Контакты"
             });
