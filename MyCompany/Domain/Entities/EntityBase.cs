@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MyCompany.Domain.Entities
 {
+    // Тебе это не нужно
     public abstract class EntityBase
     {
         protected EntityBase() => DateAdded = DateTime.UtcNow;

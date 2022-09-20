@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyCompany.Domain.Entities
 {
+    // Тебе это не нужно
     public class ServiceItem : EntityBase
     {
         [Required(ErrorMessage ="Заполните название услуги")]
